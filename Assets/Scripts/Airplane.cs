@@ -3,13 +3,13 @@ using UnityEngine;
 public class Airplane : MonoBehaviour
 {
     [SerializeField] Rigidbody rb;
-    [SerializeField] float enginePower = 40f;
+    [SerializeField] float enginePower = 30f;
     [SerializeField] float liftBooster = 0.3f;
     [SerializeField] float drag = 0.001f;
     [SerializeField] float angularDrag = 0.001f;
-    [SerializeField] float yawPower = 50f;
-    [SerializeField] float pitchPower = 50f;
-    [SerializeField] float rollPower = 30f;
+    [SerializeField] float yawPower = 100f;
+    [SerializeField] float pitchPower = 100f;
+    [SerializeField] float rollPower = 60f;
 
     void Start()
     {
